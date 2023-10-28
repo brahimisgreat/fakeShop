@@ -1,9 +1,12 @@
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Home from './components/Home';
+import Navabar from './components/navabar';
+
 function App() {
   return (
     <>
-
+    <Navabar />
+    <Home />
     </>
   );
 }
